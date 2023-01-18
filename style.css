@@ -1,0 +1,185 @@
+
+*{
+ margin: 0;
+ 
+}
+body{
+    font-family: 'Inter', sans-serif;
+    color: #333;
+    font-size: 15px;
+    font-weight: 400;
+}
+.section{
+    padding: 120px 0;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #000;
+}
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-title{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.section-title h1{
+    font-size: 45px;
+}
+.section-title p{
+    display: block;
+    margin-top: 12px;
+}
+
+.primary-button{
+    font-family: 'Inter', sans-serif;
+    background-color: #FF5959;
+    color: #fff;
+    padding: 14px 22px;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+    text-shadow: none;
+    box-shadow: none;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+.primary-button:hover{
+    background-color: #df4747;
+}
+
+/* Start Hero Area */
+.header-section{
+    background-image: url("./images/donation6.jpg");
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding:120px 0;
+}
+.header-section .banner-title{
+    font-size: 70px;
+    font-weight: bold;
+    color:#fff;
+}
+.header-section .primary-color{
+    color: red;
+}
+.header-section .description{
+    color: #FFFFFF;
+    font-weight: 400;
+}
+.header-section .primary-button{
+    margin-top: 30px;
+}
+/* End Hero Area */
+
+
+
+/* Start Doante Today */
+.donate-today{
+    text-align: center;
+}
+.donate-today .donate-amount-main{
+    display: flex;
+    justify-content: center;
+}
+.donate-today .donate-amount-main .single-amount{
+    padding: 28px 18px;
+    background-color: #fafafa;
+    margin: 0px 7px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+.donate-today .donate-amount-main .single-amount:hover{
+    border: 1px solid #FF5959;
+    background-color: #FFEEEE;
+}
+.donate-today .donate-amount-main .single-amount h4{
+    color: #555;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+.donate-today .donate-amount-main .single-amount:hover h4{
+    color:#FF5959;
+}
+.donate-today .other-amount{
+    margin-top: 30px;
+    color: #777;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+.donate-today .primary-button{}
+/* End Doante Today */
+
+
+.services{
+    padding-top: 0;
+}
+
+.donet-service{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.service-1{
+    width: 200px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding:10px;
+}
+.service-2{
+    width: 200px;
+    background: rgba(255, 89, 89, 0.1);
+border-radius: 5px;
+padding:10px;
+}
+.service-3{
+    width: 200px;
+    background: #FFF4D6;
+    border-radius: 5px;
+    padding:10px;
+}
+.service-description{
+    color:#707070;
+    font-weight: 400;
+}
+.donetion{
+    width: 250px;
+}
+.img-donetion{
+    width:250px;
+    height:250px;
+   
+}
+.live-donetion{
+    display: flex;
+    gap: 20px;
+    margin-top:40px;
+    justify-content: center;
+}
+.btn-contri{
+    color: white;
+    background-color: red;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+}
+.live-donetion-2{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    justify-content: center;
+}
